@@ -13,5 +13,6 @@ export class JumbotronComponent {
     @Input() componentName = 'HomeComponent';
 
     // TODO: https://www.npmjs.com/package/@ng-icons/core
+    // TODO: Test providing services and pipes (both template and from code) with this new standalone syntax
 
 }
