@@ -1,0 +1,4 @@
+<li class="list-inline-item" [ngClass]="{ 'mr-3': !isLast }">
+    <i [attr.data-feather]="jumboLink.iconName" class="text-primary mr-1" appMoveUpOrDown></i>
+    <a [routerLink]="jumboLink.routerLink">{{ jumboLink.label }}</a>
+</li>
