@@ -1,1 +1,21 @@
-<h2>Home</h2>
+<h2 class="mb-4">Home</h2>
+
+<h3>Lets test some pipes</h3>
+<p>
+    Both use in template and from code.
+</p>
+<ul>
+    <li>
+        Date raw: {{ today }}
+    </li>
+    <li>
+        Date pipe in template: {{ today | date }}
+    </li>
+    <li>
+        Date pipe in code: {{ todayFormatted }}
+    </li>
+</ul>
+<h3>Lets test getting a value from a service provided in root</h3>
+<p>
+    {{ val }}
+</p>

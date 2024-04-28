@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 import { JumbotronComponent } from './components';
@@ -11,12 +11,16 @@ import { RoutableComponentModel } from './models';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
 
   componentName = '';
 
   onActivate($event: RoutableComponentModel) {
     this.componentName = $event.componentName;
+  }
+
+  ngAfterViewInit(): void {
+    (window as any).feather.replace();
   }
 
 }
