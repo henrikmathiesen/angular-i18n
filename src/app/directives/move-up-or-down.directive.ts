@@ -16,9 +16,11 @@ export class MoveUpOrDownDirective implements OnInit {
     }
 
     /* 
+        https://angular.io/guide/attribute-directives
+    
         Notes: 
             Input with the same name as directive (appMoveUpOrDown) must have an incomming value. Can not have default value.
-            Lite this [appMoveUpOrDown]="'up'"
+            Like this [appMoveUpOrDown]="'up'"
 
         Usage:
             Default (move up 2px):      <span appMoveUpOrDown></span>
