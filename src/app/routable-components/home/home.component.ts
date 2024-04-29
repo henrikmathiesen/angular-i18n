@@ -28,4 +28,7 @@ export class HomeComponent implements RoutableComponentModel, OnInit {
         this.todayFormatted = this.datePipe.transform(this.today);
         this.val = this.testService.getValue();
     }
+
+    // https://angular.io/guide/standalone-components
+    // https://angular.io/guide/standalone-components#providing-services-to-a-subset-of-routes
 }
