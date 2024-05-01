@@ -1,1 +1,10 @@
 <h2 class="mb-4">Signal Inputs</h2>
+
+<div> 
+    <h3>Let's do some repititon first</h3>
+    <div class="mb-2">
+        <button type="button" class="btn btn-primary" (click)="onParentButtonClick()">Button in Parent</button>
+    </div>
+    <app-signal-inputs-child (childButtonClicked)="onChildButtonClick()" [parentButtonClicked]="isParentButtonClicked" />
+                                                                    <!-- 1) Communication down to child via input -->
+</div>
