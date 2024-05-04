@@ -1,5 +1,10 @@
 import { Routes } from '@angular/router';
-import { HomeComponent, AnotherRouteComponent, SignalInputsComponent } from './routable-components';
+import { 
+    HomeComponent, 
+    AnotherRouteComponent, 
+    SignalInputsComponent,
+    SignalAdvancedComponent
+} from './routable-components';
 
 export const routes: Routes = [
     {
@@ -13,6 +18,10 @@ export const routes: Routes = [
     {
         path: 'signal-inputs',
         component: SignalInputsComponent
+    },
+    {
+        path: 'signal-advanced',
+        component: SignalAdvancedComponent
     },
     {
         path: '', 

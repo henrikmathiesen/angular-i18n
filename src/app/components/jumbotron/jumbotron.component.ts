@@ -29,6 +29,11 @@ export class JumbotronComponent {
             iconName: 'radio',
             label: 'Signal Inputs',
             routerLink: ['signal-inputs']
+        },
+        {
+            iconName: 'wifi',
+            label: 'Signal Advanced',
+            routerLink: ['signal-advanced']
         }
     ];
 
