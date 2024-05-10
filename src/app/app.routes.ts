@@ -3,7 +3,8 @@ import {
     HomeComponent, 
     AnotherRouteComponent, 
     SignalInputsComponent,
-    SignalAdvancedComponent
+    SignalAdvancedComponent,
+    I18NComponent
 } from './routable-components';
 
 export const routes: Routes = [
@@ -22,6 +23,10 @@ export const routes: Routes = [
     {
         path: 'signal-advanced',
         component: SignalAdvancedComponent
+    },
+    {
+        path: 'i18n',
+        component: I18NComponent
     },
     {
         path: '', 

@@ -34,6 +34,11 @@ export class JumbotronComponent {
             iconName: 'wifi',
             label: 'Signal Advanced',
             routerLink: ['signal-advanced']
+        },
+        {
+            iconName: 'globe',
+            label: 'i18n',
+            routerLink: ['i18n']
         }
     ];
 
