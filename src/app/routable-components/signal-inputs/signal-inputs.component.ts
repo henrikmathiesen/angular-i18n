@@ -10,6 +10,7 @@ import { SignalInputsChildComponent } from './signal-inputs-child/signal-inputs-
 })
 export class SignalInputsComponent implements RoutableComponentModel {
     componentName = 'SignalInputsComponent';
+    componentHeader = 'Signal Inputs';
 
     //
     // Repitition

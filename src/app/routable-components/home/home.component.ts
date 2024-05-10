@@ -13,6 +13,7 @@ import { TestService } from '../../services';
 })
 export class HomeComponent implements RoutableComponentModel, OnInit {
     componentName = 'HomeComponent';
+    componentHeader = 'Home';
     
     today = new Date();
     todayFormatted: string | null = '';

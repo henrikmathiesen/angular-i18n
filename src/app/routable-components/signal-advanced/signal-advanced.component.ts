@@ -8,6 +8,7 @@ import { RoutableComponentModel } from '../../models';
 })
 export class SignalAdvancedComponent implements RoutableComponentModel { 
     componentName = 'SignalAdvancedComponent';
+    componentHeader = 'Signal Advanced';
 
     // https://angular.io/guide/signals
     // https://angular.io/guide/signals#computed-signals

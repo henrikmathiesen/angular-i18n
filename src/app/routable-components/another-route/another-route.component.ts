@@ -8,4 +8,5 @@ import { RoutableComponentModel } from '../../models';
 })
 export class AnotherRouteComponent implements RoutableComponentModel {
     componentName = 'AnotherRouteComponent';
+    componentHeader = 'Another Route';
 }

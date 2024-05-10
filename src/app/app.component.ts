@@ -14,9 +14,11 @@ import { RoutableComponentModel } from './models';
 export class AppComponent implements AfterViewInit {
 
   componentName = '';
+  componentHeader = '';
 
   onActivate($event: RoutableComponentModel) {
     this.componentName = $event.componentName;
+    this.componentHeader = $event.componentHeader;
   }
 
   ngAfterViewInit(): void {
