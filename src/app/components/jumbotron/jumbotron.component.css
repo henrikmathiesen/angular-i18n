@@ -1,0 +1,9 @@
+.app-jumbo-top-block {
+    overflow:hidden;
+    max-height: 300px;
+    transition:max-height 0.3s ease-out;
+}
+
+.app-jumbo-top-block-collapse {
+    max-height: 0;
+}

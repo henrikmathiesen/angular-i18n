@@ -8,7 +8,8 @@ import { JumbotronLinkComponent } from './jumbotron-link/jumbotron-link.componen
     selector: 'app-jumbotron',
     standalone: true,
     imports: [NgClass, JumbotronLinkComponent],
-    templateUrl: './jumbotron.component.html'
+    templateUrl: './jumbotron.component.html',
+    styleUrls: ['./jumbotron.component.css']
 })
 export class JumbotronComponent {
 
