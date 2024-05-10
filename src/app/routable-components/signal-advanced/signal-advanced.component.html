@@ -1,5 +1,16 @@
 <h2 class="mb-4">Signal Advanced</h2>
 
+<p>
+    Let's have som fun with computed signals.
+</p>
 <div>
-    Todo ...
+    <div class="mb-2">
+        <button type="button" class="btn btn-primary" (click)="onIncreaseCount()">Öka count</button>
+    </div>
+    <div>
+        Count: {{ count() }}
+    </div>
+    <div>
+        Double Count: {{ doubleCount() }}
+    </div>
 </div>
