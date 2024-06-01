@@ -24,9 +24,16 @@
 </ul>
 
 <h3>Notes</h3>
-<p>
-    Run: ng add @angular/localize , to get started.
-</p>
-<p>
-    Also need to make configuration in angular.json.
-</p>
+<ol>
+    <li>Run: ng add &#64;angular/localize , to get started.</li>
+    <li>Also need to make configuration in angular.json. See commit.</li>
+    <li>Run: ng extract-i18n , this will create a messages file for the sourceLocale</li>
+    <ul>
+        <li>XML is default</li>
+        <li>Can use flag for json</li>
+        <li>ng extract-i18n --format json</li>
+    </ul>
+    <li>Duplicate the file, and rename it to match the locale</li>
+    <li>Make a serve config in angular.json. See commit.</li>
+    <li>ng serve --configuration ja</li>
+</ol>
