@@ -1,8 +1,11 @@
 {
-    "locale": "ja",
-    "translations": {
-        "7322045727536262802": "I don't speak ja well",
-        "7949097578506846987": " I don't speak ja \n",
-        "6224826434104254725": "Whatever in ja"
-      }
+  "locale": "ja",
+  "translations": {
+    "7322045727536262802": "Översätt mig också",
+    "7949097578506846987": " Översätt mig\n",
+    "3050425640513940108": "Du har {$ICU} i din shopping cart",
+    "1218471602325094321": "{VAR_PLURAL, plural, =0 {inga saker} =1 {en sak} other {flera saker}}",
+    "myCustomVar": "Nollställ Shoppingcart",
+    "6224826434104254725": "Texten"
+  }
 }

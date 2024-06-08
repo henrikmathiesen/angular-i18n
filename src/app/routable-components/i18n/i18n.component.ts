@@ -13,5 +13,9 @@ export class I18NComponent implements RoutableComponentModel {
 
     theText = $localize `The text`;
 
-    itemCount = 2;
+    itemCount = 1;
+
+    resetItemCount() {
+        this.itemCount = 0;
+    }
 }

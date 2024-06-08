@@ -44,6 +44,9 @@
 <p>
     Translation is done at build time. So can't really translate text from a backend api(?).
 </p>
+<p>
+    Interesting, though, itemCount is dynamic and translation work for all cases.
+</p>
 
 <h3>Let's do some testing</h3>
 <p i18n data-test="Translate me too" i18n-data-test>
@@ -54,3 +57,16 @@
 <p>
     {{ theText }}
 </p>
+
+<h3>ICU (International Unicode Expressions)</h3>
+<p>
+    {{ itemCount }}
+</p>
+<p i18n>You have {itemCount, plural,
+        =0 {no items}
+        =1 {one item}
+        other {many items}}
+        in your shopping cart</p>
+<div>
+    <button class="btn btn-danger" (click)="resetItemCount()" i18n="@@myCustomVar">Reset Shoppingcart</button>
+</div>

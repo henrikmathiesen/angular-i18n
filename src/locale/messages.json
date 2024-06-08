@@ -3,6 +3,9 @@
   "translations": {
     "7322045727536262802": "Translate me too",
     "7949097578506846987": " Translate me\n",
+    "3050425640513940108": "You have {$ICU} in your shopping cart",
+    "1218471602325094321": "{VAR_PLURAL, plural, =0 {no items} =1 {one item} other {many items}}",
+    "myCustomVar": "Reset Shoppingcart",
     "6224826434104254725": "The text"
   }
 }
