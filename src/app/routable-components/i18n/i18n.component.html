@@ -34,6 +34,18 @@
         <li>ng extract-i18n --format json</li>
     </ul>
     <li>Duplicate the file, and rename it to match the locale</li>
+    <ul>
+        <li>Need to run the command above after marking up for translation</li>
+        <li>And then manually do the translation in the non source locale json file (in this case messages.ja.json)</li>
+    </ul>
     <li>Make a serve config in angular.json. See commit.</li>
     <li>ng serve --configuration ja</li>
 </ol>
+<p>
+    Translation is done at build time. So can't really translate text from a backend api(?).
+</p>
+
+<h3>Let's do some testing</h3>
+<p i18n data-test="Translate me too" i18n-data-test>
+    Translate me
+</p>
