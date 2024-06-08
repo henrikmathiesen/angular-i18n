@@ -10,4 +10,8 @@ import { RoutableComponentModel } from '../../models';
 export class I18NComponent implements RoutableComponentModel {
     componentName = 'I18NComponent';
     componentHeader = 'I18N';
+
+    theText = $localize `The text`;
+
+    itemCount = 2;
 }
