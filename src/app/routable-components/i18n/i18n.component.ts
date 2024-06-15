@@ -18,4 +18,6 @@ export class I18NComponent implements RoutableComponentModel {
     resetItemCount() {
         this.itemCount = 0;
     }
+
+    // https://medium.com/@techwithease/internationalization-angular-f5121e81c696
 }
