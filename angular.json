@@ -7,7 +7,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "ja": "src/locale/messages.ja.json"
+          "sv": "src/locale/messages.sv.json"
         }
       },
       "projectType": "application",
@@ -58,8 +58,8 @@
               "extractLicenses": false,
               "sourceMap": true
             },
-            "ja": {
-              "localize": ["ja"]
+            "sv": {
+              "localize": ["sv"]
             }
           },
           "defaultConfiguration": "production"
@@ -73,8 +73,8 @@
             "development": {
               "buildTarget": "angular-i18n:build:development"
             },
-            "ja": {
-              "buildTarget": "angular-i18n:build:development,ja"
+            "sv": {
+              "buildTarget": "angular-i18n:build:development,sv"
             }
           },
           "defaultConfiguration": "development"
