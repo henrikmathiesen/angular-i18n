@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe, DatePipe } from '@angular/common';
 
 import { RoutableComponentModel } from '../../models';
 
 @Component({
     selector: 'app-i18n',
     standalone: true,
-    imports: [CurrencyPipe],
+    imports: [CurrencyPipe, DatePipe],
     templateUrl: './i18n.component.html',
 })
 export class I18NComponent implements RoutableComponentModel {
@@ -18,6 +18,7 @@ export class I18NComponent implements RoutableComponentModel {
     itemCount = 1;
 
     amount = 50000;
+    theDate = new Date(2024,4,1);
 
     resetItemCount() {
         this.itemCount = 0;

@@ -75,3 +75,13 @@
 <p>
     {{ amount | currency }}
 </p>
+
+<h3>Date</h3>
+<p>
+    {{ theDate | date }}
+    <!-- This is fine -->
+</p>
+<p>
+    {{ theDate | date : 'YYYY-MM-dd' }}
+    <!-- TODO: This however, cant hardcode the format, make a custom pipe that transforms according to locale -->
+</p>
